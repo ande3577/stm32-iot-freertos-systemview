@@ -146,6 +146,8 @@
                                     <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/SystemView/SEGGER"/>
                                     									
                                     <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/SystemView/Config"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/SystemView/FreeRTOSV10"/>
                                     								
                                 </option>
                                 								
@@ -524,6 +526,8 @@
                                     <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/mbedTLS/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/SystemView/SEGGER"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="../../../Middlewares/Third_Party/SystemView/FreeRTOSV10"/>
                                     								
                                 </option>
                                 								
