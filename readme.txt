@@ -127,6 +127,16 @@ In order to make the program work, you must do the following:
  - Alternatively, you can download the pre-built binaries in "Binary" 
    folder included in the distributed package.
 
+@par Segger SystemView
+
+This project started with the NUCLEO example project add added SystemView 
+support by following the instructions loacted at:
+
+https://wiki.segger.com/FreeRTOS_with_SystemView
+
+Refer to the commit history for an example of how to enable SystemView support
+on an existing FreeRTOS STM32CubeIDE project.
+
 
  * <h3><center>&copy; COPYRIGHT STMicroelectronics</center></h3>
  */
