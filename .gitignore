@@ -56,3 +56,4 @@
 *.list
 makefile
 *Debug.cfg
+*.prefs

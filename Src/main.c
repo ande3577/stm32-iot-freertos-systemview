@@ -143,6 +143,8 @@
 #include "gnss_feature_cfg_data.h"
 #endif /* configUSE_FEATURE */
 
+#include "SEGGER_SYSVIEW.h"
+
 /* Private defines -----------------------------------------------------------*/
 
 #define CONSUMER_STACK_SIZE (1*1024)
@@ -259,6 +261,8 @@ int main(void)
 
   //HAL_Delay(100);
   PRINT_OUT("Booting...\r\n");
+  
+  SEGGER_SYSVIEW_Conf(); /* Configure and initialize SystemView *
 
   /* Start scheduler */
   osKernelStart();
